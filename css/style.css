@@ -2,34 +2,29 @@
 .flex-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    width: 300px;
+    flex-wrap: wrap;
+    width: 310px;
+    justify-content: flex-start;
+    gap: 0px;
 }
 
-/* .flex-container > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  } */
 .pokeball-bg-div-left {
-    border: 5px outset red;
+    /* border: 5px outset red; */
     /* margin: auto; */
     background: url(../assets/pokeball-bg.png) repeat 0 0;
     /* background-color: #cccccc; */
     height: 150px;
-    width: 150px;
+    width: 50%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
     position: relative;
-    flex-grow:1
     
 }
+
 .inside-pokeball {
-    top: 23%;
+    top: 22%;
+    left: 3%;
     height: 50%;
     width: 50%;
     position: relative;

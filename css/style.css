@@ -22,11 +22,8 @@
     
 }
 
-.inside-pokeball {
-    top: 22%;
-    left: 3%;
-    height: 50%;
-    width: 50%;
-    position: relative;
-    margin: auto;
+.pokesprite.pokemon {
+    zoom: 160%;
+    display: table;
+    margin: 0 auto;
 }

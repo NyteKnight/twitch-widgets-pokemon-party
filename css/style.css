@@ -17,7 +17,7 @@
 .pokeball-bg-div-left {
     border: 5px outset red;
     /* margin: auto; */
-    background: url(../images/pokeball-bg.png) repeat 0 0;
+    background: url(../assets/pokeball-bg.png) repeat 0 0;
     /* background-color: #cccccc; */
     height: 150px;
     width: 150px;
